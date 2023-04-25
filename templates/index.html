@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site FTT</title>
+  <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="../static/style.css">
+  <link rel="icon" type="img/png" href="icone.png">
+</head>
+<header>
+  <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary navigationbar p-3" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">FTT</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#sobre">Sobre</a>
+          </li>
+          <li class="nav-item dropdown dropdown-center">
+            <a class="nav-link dropdown-toggle text-white" href="" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Portfólio
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item text-white" href="#">Little Snake</a></li>
+              <li><a class="dropdown-item text-white" href="#">Portfólio Pessoal Matheus</a></li>
+              <li><a class="dropdown-item text-white" href="#">Portfólio Pessoal Babidi</a></li>
+              <li><a class="dropdown-item text-white" href="#">Pokedex</a></li>
+              <li><a class="dropdown-item text-white" href="#">Pokedex</a></li>
+              <li><a class="dropdown-item text-white" href="#">Yoshi Jump</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#projetos">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<body>
+  <section id="inicio" class="row m-1 p-1">
+    <div id="divinicio">
+      <h2 class="text-black text-shadow">Fábrica de Tecnologias Turing</h2>
+      <span id="subtitle" class="text-black text-shadow">Projeto da UniEvangélica voltado para o desenvolvimento de
+        softwares.</span>
+
+    </div>
+    <img class="" id='logoftt' src="../static/imgs/technology.png">
+
+
+  </section>
+
+  <section class="section-bg mt-5 text-black p-4" id="portfolio">
+    <div class="container pb-5 pt-5"></div>
+
+    <h2 class="pb-4">Portfólio</h2>
+
+    <div id="carouselPort" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselPort" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselPort" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="../static/imgs/Pokédex Matheus.png" class="card-img-top" alt="Pokédex1">
+                <div class="card-body">
+                  <h5 class="card-title">Pokédex</h5>
+                  <p class="card-text">Pokédex feita a partir de html, css e JavaScript com informações dos 151 pokemóns da primeira geração.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../static/imgs/Projeto Mario.png" class="card-img-top" alt="Yoshi">
+                <div class="card-body">
+                  <h5 class="card-title">Yoshi Jump</h5>
+                  <p class="card-text">Jogo divertido feito a partir de html, css e JavaScript onde o objetivo é pular obstáculos com o Mario e o Yoshi.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../static/imgs/little snack!.png" class="card-img-top" alt="cobrinha">
+                <div class="card-body">
+                  <h5 class="card-title">Little Snake</h5>
+                  <p class="card-text">Famoso jogo da cobrinha feito apenas com a linguagem python.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="carousel-item">
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="../static/imgs/portfólio matheus.png" class="card-img-top" alt="Port1">
+                <div class="card-body">
+                  <h5 class="card-title">Porfólio do Matheus</h5>
+                  <p class="card-text">Porfólio responsivo feito a partir de html, css e JavaScript contendo várias informações e animações para maior acessibilidade.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../static/imgs/Porfólio Rodrigo.png" class="card-img-top" alt="Port2">
+                <div class="card-body">
+                  <h5 class="card-title">Portfólio do Babidi</h5>
+                  <p class="card-text">Porfólio responsivo feito a partir de html, css e JavaScript contendo várias informações e animações para maior acessibilidade.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../static/imgs/Projeto Pokédex.png" class="card-img-top" alt="Pokédex2">
+                <div class="card-body">
+                  <h5 class="card-title">Pokédex</h5>
+                  <p class="card-text">Porjeto de pokédex feito por html, css e JavaScript com animação dos pokémons com opção de serem procurados a partir do seu nome ou número.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </div>
+
+    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPort" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselPort" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+
+
+  </section>
+
+  <script src="../static/bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
